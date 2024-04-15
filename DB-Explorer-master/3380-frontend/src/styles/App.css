@@ -1,0 +1,107 @@
+/* Containers */
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.my-3 {
+  margin: 1rem 0;
+}
+
+.mr-3 {
+  margin-right: 1rem;
+}
+
+/* Building Blocks */
+
+.spacer {
+  padding: 0.5rem;
+}
+
+.body {
+  min-height: 100vh;
+  padding: 50px 100px;
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 6px rgb(101, 101, 101);
+}
+
+.nav {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.75rem 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgb(83, 83, 83);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+
+  transition: background-color 200ms, text-color 200ms;
+}
+
+.nav-active {
+  color: white;
+  background-color: #585aec;
+}
+
+.textbox {
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: rgb(234, 234, 234);
+  border: 1px dashed rgb(92, 92, 92);
+}
+
+/* Font Styles */
+
+.h600 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.h400 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.p600 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p400 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.truncated {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bold {
+  font-weight: 600;
+}

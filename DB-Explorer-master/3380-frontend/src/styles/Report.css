@@ -1,0 +1,46 @@
+.report-multiselect {
+    min-width: 150px;
+    max-width: 70%;
+}
+
+.workspace-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: lightgrey;
+    border-top: 2px solid black;
+}
+
+.project-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid black;
+}
+
+.chart-container {
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.above-estimated {
+    margin-left: 5px;
+    width: 'fit-content';
+    padding: 0 8px;
+    color: white;
+    background-color: rgb(255, 50, 50);
+    border-radius: 10px;
+    font-weight: bold;
+}
+    
+.below-estimated {
+    margin-left: 5px;
+    width: 'fit-content';
+    padding: 0 8px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+}
